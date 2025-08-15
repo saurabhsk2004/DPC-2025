@@ -14,9 +14,9 @@ def sortColors(arr):
     return arr
 
 
-print(sortColors([0, 1, 2, 1, 0, 2, 1, 0]))  # [0, 0, 0, 1, 1, 1, 2, 2]
-print(sortColors([2, 2, 2, 2]))              # [2, 2, 2, 2]
-print(sortColors([0, 0, 0, 0]))              # [0, 0, 0, 0]
-print(sortColors([1, 1, 1, 1]))              # [1, 1, 1, 1]
-print(sortColors([2, 0, 1]))                 # [0, 1, 2]
-print(sortColors([]))                        # []
+print(sortColors([0, 1, 2, 1, 0, 2, 1, 0])) , 0, 0, 1, 1, 1, 2, 2]
+print(sortColors([2, 2, 2, 2]))             
+print(sortColors([0, 0, 0, 0]))             
+print(sortColors([1, 1, 1, 1]))             
+print(sortColors([2, 0, 1]))                 
+print(sortColors([]))                        
