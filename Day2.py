@@ -1,9 +1,11 @@
 def find_missing_number(arr):
-    n = len(arr) + 1   # since one number is missing
+    n = len(arr) + 1
     total_sum = n * (n + 1) // 2
-    arr_sum = sum(arr)
-    return total_sum - arr_sum
+    return total_sum - sum(arr)
 
-# Example
-arr = [1, 2, 4, 5]
-print("Missing Number:", find_missing_number(arr))
+# Test Cases
+print(find_missing_number([1, 2, 4, 5]))        # 3
+print(find_missing_number([2, 3, 4, 5]))        # 1
+print(find_missing_number([1, 2, 3, 4]))        # 5
+print(find_missing_number([1]))                 # 2
+print(find_missing_number(list(range(1,1000000))))  # 1000000
